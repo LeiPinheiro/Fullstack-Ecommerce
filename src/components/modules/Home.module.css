@@ -1,0 +1,79 @@
+#mainSection {
+    background-color: #F2F0F1;
+    width: 100%;
+}
+
+#homeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#leftContainer {
+    margin-left: 2rem;
+}
+
+#mainText p {
+    color: rgba(0, 0, 0, 0.6);
+    width: 35rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#mainBtn button {
+    border: none;
+    background-color: black;
+    font-size: 1rem;
+    padding: 0.8rem 3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: ease 500ms;
+}
+
+
+#mainBtn button a {
+    color: white;
+}
+
+#mainBtn button:hover{
+    padding: 0.8rem 5rem;
+}
+
+#bottomMainText {
+    display: flex;
+}
+
+.bottomNumbers {
+    padding: 1rem;
+    border-right: #00000010 solid 2px;
+}
+
+.titleBottomText {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.pBottomText {
+    color:  #00000060;
+}
+
+#mainText h1{
+    font-family: var(--titles-font);
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+}
+
+#rightContainer img{
+    height: 30rem;
+    margin-right: 2rem;
+}
+
+#brandsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    background-color: black;
+}

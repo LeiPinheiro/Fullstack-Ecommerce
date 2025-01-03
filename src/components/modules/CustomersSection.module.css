@@ -1,0 +1,55 @@
+#customersSection {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+#custTitleContainer h2 {
+    font-size: 2.5rem;
+    font-family: 'Integral CF', sans-serif;
+    font-weight: 900;
+}
+
+#swiperContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.swiperCard {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    border-radius: 10px;
+    width: 27rem;
+    cursor: grabbing;
+}
+
+
+.rateImageContainer img {
+    height: 1.3rem;
+}
+
+.cardTitleContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cardTitleContainer p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.custIcon {
+    color: rgb(2, 190, 2);
+    font-size: 1.1rem;
+}
+
+.cardTextContainer  p{
+    color: #00000060;
+    font-size: 1rem;
+}

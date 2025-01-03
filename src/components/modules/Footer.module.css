@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0F0F0;
+    margin-top: 5rem;
+    height: 50vh;
+}
+
+.footerTitle {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.footerNav {
+    color: #00000060;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: ease 500ms;
+}
+
+.footerNav:hover {
+    color: black;
+}
+
+#firstCardFooter  img{
+    height: 1.7rem;
+}
+
+#firstCardFooter {
+    width: 25%;
+}
+
+#firstCardFooter p {
+    margin-top: 1rem;
+    color: #00000060;
+}
+
+

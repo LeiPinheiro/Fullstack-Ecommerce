@@ -1,0 +1,125 @@
+.newArrivalsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newArrivalsTitle h2 {
+    font-size: 2.5rem;
+    font-family: 'Integral CF', sans-serif;
+    font-weight: 900;
+    margin-top: 3.5rem;
+}
+.clotheSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    gap: 2rem;
+    height: 80vh;
+}
+
+.clotheContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;   
+    min-height: 25.5rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    cursor: pointer;
+    transition: ease 500ms;
+}
+
+.clotheContainer:hover {
+    width: 20rem;
+}
+
+.clotheContainer img {
+    max-height: 12.5rem;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.clotheCardText{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+
+.clotheName {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.clothePrice {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+.clotheBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+
+}
+
+.clotheBtnContainer button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+    transition: ease 500ms;
+}
+
+.clotheBtnContainer button:hover{
+    padding: 0.3rem 6.3rem;
+}
+
+.clotheBtnContainer button a {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.addCartBtn {
+    background-color: rgb(6, 161, 6);
+}
+
+.viewAllBtn {
+    display: flex;
+    text-align: center;
+    padding: 0.7rem 3rem;
+    background-color: transparent;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 50px;
+    transition: ease 500ms;
+}
+
+.viewAllBtn:hover{
+    background-color: #F0F0F0;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 2rem;
+    border-color: #00000010;        
+    width: 90%;
+}
+
+
+
